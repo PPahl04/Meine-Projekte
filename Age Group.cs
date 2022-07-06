@@ -16,7 +16,6 @@ namespace AgeGroup
             if (age <= 1)
             {
                 Console.WriteLine("You are {0} years old, which makes you an infant.", age);
-                Console.WriteLine("What are you doing here.");
             }
             else if (age <= 4)
             {
@@ -48,8 +47,7 @@ namespace AgeGroup
             }
             else if (age > 110)
             {
-                Console.WriteLine("You are {0} years old...", age);
-                Console.WriteLine("How are you even alive???");
+                Console.WriteLine("You are {0} years old... Which isn't possible for humans.", age);
             }
 
         }
