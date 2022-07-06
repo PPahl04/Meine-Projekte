@@ -20,7 +20,8 @@ namespace OddEven
                 string input = Console.ReadLine();
                 if (input == "exit")
                 {
-                    Console.WriteLine("Thank you for using this program. You've used this program {0} times.", use);
+                    Console.WriteLine("Thank you for using this program.");
+                    Console.WriteLine("You've used this program {0} times.", use);
                     break;
                 }
                 else
