@@ -1,6 +1,3 @@
-﻿//I will make a calculator that with different calculations like +, -, * and /
-
-
 Console.WriteLine("This program is a simple calculator. Which one of these following calculations do you want to make?");
 Console.WriteLine("Please type in a number.");
 
